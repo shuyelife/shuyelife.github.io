@@ -1,279 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  <title>Hexo 双栏纯白轻博客主题 Anatole | SHUYE</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="HEXO 双栏纯白轻博客主题 ANATOLE
-此主题系 Farbox 主题 Anatole 在 Hexo 平台上的移植版本。主题特色：双栏、响应式设计、纯净、轻巧、观感舒适。
-本文为 hexo-theme-Anatole 的中文文档。 Click here for the English wiki.
-初次使用
-cd blog ##部署了 Hexo 的文件夹npm install –save hex">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Hexo 双栏纯白轻博客主题 Anatole">
-<meta property="og:url" content="http://yoursite.com/2017/02/23/Hexo-双栏纯白轻博客主题-Anatole/index.html">
-<meta property="og:site_name" content="SHUYE">
-<meta property="og:description" content="HEXO 双栏纯白轻博客主题 ANATOLE
-此主题系 Farbox 主题 Anatole 在 Hexo 平台上的移植版本。主题特色：双栏、响应式设计、纯净、轻巧、观感舒适。
-本文为 hexo-theme-Anatole 的中文文档。 Click here for the English wiki.
-初次使用
-cd blog ##部署了 Hexo 的文件夹npm install –save hex">
-<meta property="og:updated_time" content="2017-02-23T06:30:59.000Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo 双栏纯白轻博客主题 Anatole">
-<meta name="twitter:description" content="HEXO 双栏纯白轻博客主题 ANATOLE
-此主题系 Farbox 主题 Anatole 在 Hexo 平台上的移植版本。主题特色：双栏、响应式设计、纯净、轻巧、观感舒适。
-本文为 hexo-theme-Anatole 的中文文档。 Click here for the English wiki.
-初次使用
-cd blog ##部署了 Hexo 的文件夹npm install –save hex">
-  
-    <link rel="alternate" href="/atom.xml" title="SHUYE" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
+include mixins
 
-</head>
+extends partial/layout
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">SHUYE</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="post-Hexo-双栏纯白轻博客主题-Anatole" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/02/23/Hexo-双栏纯白轻博客主题-Anatole/" class="article-date">
-  <time datetime="2017-02-22T17:42:04.000Z" itemprop="datePublished">2017-02-23</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      Hexo 双栏纯白轻博客主题 Anatole
-    </h1>
-  
+block site_title
+    != page.title + " · " + config.title
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>HEXO 双栏纯白轻博客主题 ANATOLE</p>
-<p>此主题系 Farbox 主题 Anatole 在 Hexo 平台上的移植版本。主题特色：双栏、响应式设计、纯净、轻巧、观感舒适。</p>
-<p>本文为 hexo-theme-Anatole 的中文文档。 Click here for the English wiki.</p>
-<p>初次使用</p>
-<p>cd blog ##部署了 Hexo 的文件夹<br>npm install –save hexo-renderer-jade hexo-generator-archive ##这是必需插件<br>git clone <a href="https://github.com/Ben02/hexo-theme-Anatole.git" target="_blank" rel="external">https://github.com/Ben02/hexo-theme-Anatole.git</a> themes/anatole ##或者直接下载 zip<br>编辑 _config.yml, 找到 theme: 并把那一行改成 theme: anatole, 然后增加下面条目:</p>
-<p>archive_generator:<br>  per_page: 0<br>  yearly: false<br>  monthly: false<br>  daily: false<br>如何更新</p>
-<p>cd themes/anatole<br>git pull<br>注意: 如果你平时有把 Hexo 文件夹 push 到 GitHub 之类的地方的习惯的话，你很可能会遇到这样蛋疼的报错：</p>
-<p>Changes not staged for commit:<br>modified:   themes/anatole<br>想要不报错，删除 themes/anatole 里的 .git 文件夹就好了，不过你就不能用上面那种方法更新了。</p>
-<p>使用魔法</p>
-<p>自定义内容</p>
-<p>有一些个人信息是可以到 themes/anatole/_config.yml 编辑的, 像是 keywords, author, description, avatar, 还有你的社交账户。</p>
-<p>显示英语</p>
-<p>只需要轻轻地删掉 /themes/anatole/languages/zh-cn.yml 就行了。</p>
-<p>Meta 描述</p>
-<p>如果你想设置单篇文章的 Meta Description，可以在文章的头部设定一个 desc 值——更好的方法是把 desc 添加到 Scaffolds 里面去，就像这样：</p>
-<p>title: Lorem ipsum dolor<br>date: 2015-12-31 14:49:13</p>
-<h2 id="desc-Lorem-ipsum-dolor-sit-amet-consectetur"><a href="#desc-Lorem-ipsum-dolor-sit-amet-consectetur" class="headerlink" title="desc: Lorem ipsum dolor sit amet, consectetur."></a>desc: Lorem ipsum dolor sit amet, consectetur.</h2><p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, non numquam saepe ex ut. Deleniti culpa inventore consectetur nam saepe!<br>就能在头部输出：</p>
-<p><meta name="description" content="Lorem ipsum dolor sit amet, consectetur."><br>如果文章里面没有 desc 值或者值为空, hexo-theme-Anatole 就会截取文章内容的前 150 个字符来替代。</p>
-<p>文章摘要</p>
-<p>hexo-theme-Anatole 默认在首页、分类聚合页、标签聚合页输出文章的前 160 个字符。如果你想控制这个数量，可以编辑 /layout/mixins.jade，找到 p!= truncate(strip_html(summary), {length: 160})，修改 160。</p>
-<p>想要指定单篇文章输出的摘要，可以在文章的头部设定一个 summary 值，同样的，你也可以把它添加到 Scaffolds 里去。（感谢 @tanwenhai）</p>
-<p>评论插件</p>
-<p>hexo-theme-Anatole 支持显示两种评论插件：Disqus 和多说，请照样设置 theme/anatole/_config.yml：</p>
-<p>disqus: seansun<br>注意：用户名设置错误会导致插件工作故障。</p>
-<p>危险的提示</p>
-<p>只需把提示语用以下语句包括起来：</p>
-<p><div class="tip"><br>  重要的事情<br></div><br>看起来就像：</p>
-<p>自定义导航栏</p>
-<p>本主题默认显示「关于」和「友链」两个页面的链接。使用本主题前应该自行创建固定链接为 about 和 links 的两个页面。如果你想更改这两个链接的地址或者删除这两个链接，请编辑 /layout/partrial/nav.jade。</p>
-<p>提升体验</p>
-<p>下面这些插件或者项目可以帮你达到更好的写作体验。（都是可选的）</p>
-<p>chenzhutian / hexo-all-minifier : 图片、CSS、JS、HTML 多合一压缩插件。<br>ihewro / Duoshuo-Disqus-theme : 让你的多说评论看起来像 Disqus。<br>Ben02 / 163music-APlayer-you-get-docker-mod : 一个美丽的基于网易云音乐的 HTML5 播放器。<br>特别鸣谢</p>
-<p>pinggod/hexo-theme-apollo: 参考了一些代码实现。</p>
-<p>开源协议</p>
-<p>MIT license.</p>
-<p>还想说一句</p>
-<p>专注文章内容的创作胜过博客样式的美观，祝各位玩的开心:) ！</p>
+block description
+    - var desc = page.desc || strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150);
+    meta(name="description", content=desc)
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/02/23/Hexo-双栏纯白轻博客主题-Anatole/" data-id="cizik5jyb000102r3fvakqmbv" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo-blog/">hexo blog</a></li></ul>
-
-    </footer>
-  </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/2017/02/23/HEXO配置/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          HEXO配置
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2017/02/23/Mac-基础教程：如何让-Finder-显示隐藏文件和文件夹/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Mac 基础教程：如何让 Finder 显示隐藏文件和文件夹</div>
-    </a>
-  
-</nav>
-
-  
-</article>
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/技术探讨/">技术探讨</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo-blog/">hexo blog</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/hexo-blog/" style="font-size: 10px;">hexo blog</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2017/02/23/HEXO配置/">HEXO配置</a>
-          </li>
-        
-          <li>
-            <a href="/2017/02/23/Hexo-双栏纯白轻博客主题-Anatole/">Hexo 双栏纯白轻博客主题 Anatole</a>
-          </li>
-        
-          <li>
-            <a href="/2017/02/23/Mac-基础教程：如何让-Finder-显示隐藏文件和文件夹/">Mac 基础教程：如何让 Finder 显示隐藏文件和文件夹</a>
-          </li>
-        
-          <li>
-            <a href="/2017/02/23/Hexo常见问题解决方案/">Hexo常见问题解决方案</a>
-          </li>
-        
-          <li>
-            <a href="/2017/02/20/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2017 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-  </div>
-</body>
-</html>
+block content
+  .autopagerize_page_element: .content: .post-page
+    include mixins
+    +make_post(page, true)
+    .share
+      .evernote 
+        a.fa.fa-bookmark(href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title);}})();", ref="nofollow", target="_blank")
+      .weibo 
+        a.fa.fa-weibo(href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&title=',e(d.title),'&appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));")
+      .twitter 
+        a.fa.fa-twitter(href=url_for("http://twitter.com/home?status="+","+config.url+"/"+page.path+","+config.title+","+page.title+",;"))
+    - var prev = page.prev ? page.prev.path : false;
+    - var next = page.next ? page.next.path : false; 
+    .pagination
+      ul.clearfix
+        if prev
+          li.pre.pagbuttons
+            a.btn(role="navigation",href=url_for(prev), title=page.prev.title)!= __('prev_post')
+        if next
+          li.next.pagbuttons
+            a.btn(role="navigation",href=url_for(next), title=page.next.title)!= __('next_post')
+    include partial/comments
