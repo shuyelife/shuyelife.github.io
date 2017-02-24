@@ -5,28 +5,24 @@ NexT.utils = NexT.$u = {
    * Wrap images with fancybox support.
    */
   wrapImageWithFancyBox: function () {
-    $('.content img')
-      .not('[hidden]')
-      .not('.group-picture img, .post-gallery img')
-      .each(function () {
-        var $image = $(this);
-        var imageTitle = $image.attr('title');
-        var $imageWrapLink = $image.parent('a');
+    $('.content img').not('.group-picture img, .post-gallery img').each(function () {
 
-        if ($imageWrapLink.size() < 1) {
-          $imageWrapLink = $image.wrap('<a href="' + this.getAttribute('src') + '"></a>').parent('a');
-        }
+      var $image = $(this);
+      var imageTitle = $image.attr('title');
+      var $imageWrapLink = $image.parent('a');
 
-        $imageWrapLink.addClass('fancybox fancybox.image');
-        $imageWrapLink.attr('rel', 'group');
+      if ($imageWrapLink.size() < 1) {
+        $imageWrapLink = $image.wrap('<a href="' + this.getAttribute('src') + '"></a>').parent('a');
+      }
 
-        if (imageTitle) {
-          $imageWrapLink.append('<p class="image-caption">' + imageTitle + '</p>');
+      $imageWrapLink.addClass('fancybox fancybox.image');
+      $imageWrapLink.attr('rel', 'group');
 
-          //make sure img title tag will show correctly in fancybox
-          $imageWrapLink.attr('title', imageTitle);
-        }
-      });
+      if (imageTitle) {
+        $imageWrapLink.append('<p class="image-caption">' + imageTitle + '</p>');
+        $imageWrapLink.attr('title', imageTitle); //make sure img title tag will show correctly in fancybox
+      }
+    });
 
     $('.fancybox').fancybox({
       helpers: {
@@ -50,7 +46,7 @@ NexT.utils = NexT.$u = {
 
     $(window).on('scroll', function () {
       $top.toggleClass('back-to-top-on', window.pageYOffset > THRESHOLD);
-
+      
       var scrollTop = $(window).scrollTop();
       var docHeight = $(document).height();
       var winHeight = $(window).height();
