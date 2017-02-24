@@ -18,7 +18,7 @@
         
         <tags>
             
-            <tag> hexo,next </tag>
+            <tag> “hexo”,“next” </tag>
             
         </tags>
         
@@ -162,49 +162,62 @@ canvas_nest: true
     <entry>
       <title><![CDATA[Hexo 双栏纯白轻博客主题 Anatole]]></title>
       <url>https://shuyelife.github.io/post/Hexo-%E5%8F%8C%E6%A0%8F%E7%BA%AF%E7%99%BD%E8%BD%BB%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98-Anatole/</url>
-      <content type="html"><![CDATA[<p>HEXO 双栏纯白轻博客主题 ANATOLE</p>
-<p>此主题系 Farbox 主题 Anatole 在 Hexo 平台上的移植版本。主题特色：双栏、响应式设计、纯净、轻巧、观感舒适。</p>
-<p>本文为 hexo-theme-Anatole 的中文文档。 Click here for the English wiki.</p>
-<p>初次使用</p>
-<p>cd blog ##部署了 Hexo 的文件夹<br>npm install –save hexo-renderer-jade hexo-generator-archive ##这是必需插件<br>git clone <a href="https://github.com/Ben02/hexo-theme-Anatole.git" target="_blank" rel="external">https://github.com/Ben02/hexo-theme-Anatole.git</a> themes/anatole ##或者直接下载 zip<br>编辑 _config.yml, 找到 theme: 并把那一行改成 theme: anatole, 然后增加下面条目:</p>
-<p>archive_generator:<br>  per_page: 0<br>  yearly: false<br>  monthly: false<br>  daily: false<br>如何更新</p>
-<p>cd themes/anatole<br>git pull<br>注意: 如果你平时有把 Hexo 文件夹 push 到 GitHub 之类的地方的习惯的话，你很可能会遇到这样蛋疼的报错：</p>
-<p>Changes not staged for commit:<br>modified:   themes/anatole<br>想要不报错，删除 themes/anatole 里的 .git 文件夹就好了，不过你就不能用上面那种方法更新了。</p>
-<p>使用魔法</p>
-<p>自定义内容</p>
-<p>有一些个人信息是可以到 themes/anatole/_config.yml 编辑的, 像是 keywords, author, description, avatar, 还有你的社交账户。</p>
-<p>显示英语</p>
-<p>只需要轻轻地删掉 /themes/anatole/languages/zh-cn.yml 就行了。</p>
-<p>Meta 描述</p>
-<p>如果你想设置单篇文章的 Meta Description，可以在文章的头部设定一个 desc 值——更好的方法是把 desc 添加到 Scaffolds 里面去，就像这样：</p>
-<p>title: Lorem ipsum dolor<br>date: 2015-12-31 14:49:13</p>
-<h2 id="desc-Lorem-ipsum-dolor-sit-amet-consectetur"><a href="#desc-Lorem-ipsum-dolor-sit-amet-consectetur" class="headerlink" title="desc: Lorem ipsum dolor sit amet, consectetur."></a>desc: Lorem ipsum dolor sit amet, consectetur.</h2><p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, non numquam saepe ex ut. Deleniti culpa inventore consectetur nam saepe!<br>就能在头部输出：</p>
-<p><meta name="description" content="Lorem ipsum dolor sit amet, consectetur."><br>如果文章里面没有 desc 值或者值为空, hexo-theme-Anatole 就会截取文章内容的前 150 个字符来替代。</p>
-<p>文章摘要</p>
-<p>hexo-theme-Anatole 默认在首页、分类聚合页、标签聚合页输出文章的前 160 个字符。如果你想控制这个数量，可以编辑 /layout/mixins.jade，找到 p!= truncate(strip_html(summary), {length: 160})，修改 160。</p>
-<p>想要指定单篇文章输出的摘要，可以在文章的头部设定一个 summary 值，同样的，你也可以把它添加到 Scaffolds 里去。（感谢 @tanwenhai）</p>
-<p>评论插件</p>
-<p>hexo-theme-Anatole 支持显示两种评论插件：Disqus 和多说，请照样设置 theme/anatole/_config.yml：</p>
-<p>disqus: seansun<br>注意：用户名设置错误会导致插件工作故障。</p>
-<p>危险的提示</p>
-<p>只需把提示语用以下语句包括起来：</p>
-<p><div class="tip"><br>  重要的事情<br></div><br>看起来就像：</p>
-<p>自定义导航栏</p>
-<p>本主题默认显示「关于」和「友链」两个页面的链接。使用本主题前应该自行创建固定链接为 about 和 links 的两个页面。如果你想更改这两个链接的地址或者删除这两个链接，请编辑 /layout/partrial/nav.jade。</p>
-<p>提升体验</p>
-<p>下面这些插件或者项目可以帮你达到更好的写作体验。（都是可选的）</p>
-<p>chenzhutian / hexo-all-minifier : 图片、CSS、JS、HTML 多合一压缩插件。<br>ihewro / Duoshuo-Disqus-theme : 让你的多说评论看起来像 Disqus。<br>Ben02 / 163music-APlayer-you-get-docker-mod : 一个美丽的基于网易云音乐的 HTML5 播放器。<br>特别鸣谢</p>
-<p>pinggod/hexo-theme-apollo: 参考了一些代码实现。</p>
-<p>开源协议</p>
-<p>MIT license.</p>
-<p>还想说一句</p>
-<p>专注文章内容的创作胜过博客样式的美观，祝各位玩的开心:) ！</p>
+      <content type="html"><![CDATA[<p>From: <a href="https://munen.cc/tech/Anatole.html" target="_blank" rel="external">https://munen.cc/tech/Anatole.html</a></p>
+<p>此主题系 Farbox 主题 <a href="https://github.com/hi-caicai/farbox-theme-Anatole" target="_blank" rel="external">Anatole</a> 在 Hexo 平台上的移植版本。主题特色：双栏、响应式设计、纯净、轻巧、观感舒适。 </p>
+<p>本文为 <a href="https://github.com/Ben02/hexo-theme-Anatole" target="_blank" rel="external">hexo-theme-Anatole</a> 的中文文档。 Click <a href="https://github.com/Ben02/hexo-theme-Anatole/blob/master/README.md" target="_blank" rel="external">here</a> for the English wiki. </p>
+<p><img src="https://res.munen.cc/Anatole/01.png" alt=""><br><img src="https://res.munen.cc/Anatole/02.png" alt=""></p>
+<h3 id="初次使用"><a href="#初次使用" class="headerlink" title="初次使用"></a>初次使用</h3><p>cd blog </p>
+<p>npm install –save hexo-renderer-jade hexo-generator-archive </p>
+<p>git clone <a href="https://github.com/Ben02/hexo-theme-Anatole.git" target="_blank" rel="external">https://github.com/Ben02/hexo-theme-Anatole.git</a> themes/anatole </p>
+<p>编辑 <code>_config.yml</code>, 找到 <code>theme:</code> 并把那一行改成 <code>theme: anatole</code>, 然后增加下面条目: </p>
+<p>archive_generator:</p>
+<p>per_page: 0</p>
+<p>yearly: false</p>
+<p>monthly: false</p>
+<p>daily: false</p>
+<h3 id="如何更新"><a href="#如何更新" class="headerlink" title="如何更新"></a>如何更新</h3><p>cd themes/anatole </p>
+<p>git pull </p>
+<p>注意: 如果你平时有把 Hexo 文件夹 push 到 GitHub 之类的地方的习惯的话，你很可能会遇到这样<del>蛋疼</del>的报错： </p>
+<p>Changes not staged for commit: </p>
+<p>modified: themes/anatole </p>
+<p>想要不报错，删除 <code>themes/anatole</code> 里的 <code>.git</code> 文件夹就好了，不过你就不能用上面那种方法更新了。 </p>
+<h3 id="使用魔法"><a href="#使用魔法" class="headerlink" title="使用魔法"></a>使用魔法</h3><h4 id="自定义内容"><a href="#自定义内容" class="headerlink" title="自定义内容"></a>自定义内容</h4><p>有一些个人信息是可以到 <code>themes/anatole/_config.yml</code> 编辑的, 像是 <code>keywords</code>, <code>author</code>, <code>description</code>, <code>avatar</code>, 还有你的社交账户。 </p>
+<h4 id="显示英语"><a href="#显示英语" class="headerlink" title="显示英语"></a>显示英语</h4><p>只需要轻轻地删掉 <code>/themes/anatole/languages/zh-cn.yml</code> 就行了。 </p>
+<h4 id="Meta-描述"><a href="#Meta-描述" class="headerlink" title="Meta 描述"></a>Meta 描述</h4><p>如果你想设置单篇文章的 Meta Description，可以在文章的头部设定一个 <code>desc</code> 值——更好的方法是把 <code>desc</code> 添加到 Scaffolds 里面去，就像这样： </p>
+<p>title: Lorem ipsum dolor </p>
+<p>date: 2015-12-31 14:49:13</p>
+<p>desc: Lorem ipsum dolor sit amet, consectetur. </p>
+<hr>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, non numquam saepe ex ut. Deleniti culpa inventore consectetur nam saepe! </p>
+<p>就能在头部输出： </p>
+<meta name="description" content="Lorem ipsum dolor sit amet, consectetur.">
+
+<p>如果文章里面没有 <code>desc</code> 值或者值为空, hexo-theme-Anatole 就会截取文章内容的前 150 个字符来替代。 </p>
+<h4 id="文章摘要"><a href="#文章摘要" class="headerlink" title="文章摘要"></a>文章摘要</h4><p>hexo-theme-Anatole 默认在首页、分类聚合页、标签聚合页输出文章的前 160 个字符。如果你想控制这个数量，可以编辑 <code>/layout/mixins.jade</code>，找到 <code>p!= truncate(strip_html(summary), {length: 160})</code>，修改 <code>160</code>。 </p>
+<p>想要指定单篇文章输出的摘要，可以在文章的头部设定一个 <code>summary</code> 值，同样的，你也可以把它添加到 Scaffolds 里去。（感谢 <a href="https://github.com/tanwenhai" target="_blank" rel="external">@tanwenhai</a>） </p>
+<h4 id="评论插件"><a href="#评论插件" class="headerlink" title="评论插件"></a>评论插件</h4><p>hexo-theme-Anatole 支持显示两种评论插件：Disqus 和多说，请照样设置 <code>theme/anatole/_config.yml</code>： </p>
+<p>disqus: seansun </p>
+<p>注意：用户名设置错误会导致插件工作故障。 </p>
+<h4 id="危险的提示"><a href="#危险的提示" class="headerlink" title="危险的提示"></a>危险的提示</h4><p>只需把提示语用以下语句包括起来： </p>
+<div class="tip"><br><br>重要的事情<br><br></div>
+
+<p>看起来就像： </p>
+<p><img src="https://res.munen.cc/Anatole/03.png" alt=""></p>
+<h4 id="自定义导航栏"><a href="#自定义导航栏" class="headerlink" title="自定义导航栏"></a>自定义导航栏</h4><p>本主题默认显示「关于」和「友链」两个页面的链接。使用本主题前应该自行创建固定链接为 <code>about</code> 和 <code>links</code> 的两个页面。如果你想更改这两个链接的地址或者删除这两个链接，请编辑 <code>/layout/partrial/nav.jade</code>。 </p>
+<h3 id="提升体验"><a href="#提升体验" class="headerlink" title="提升体验"></a>提升体验</h3><p>下面这些插件或者项目可以帮你达到更好的写作体验。（都是可选的） </p>
+<ol>
+<li><a href="https://github.com/chenzhutian/hexo-all-minifier" target="_blank" rel="external">chenzhutian / hexo-all-minifier</a> : 图片、CSS、JS、HTML 多合一压缩插件。</li>
+<li><a href="https://github.com/ihewro/Duoshuo-Disqus-theme" target="_blank" rel="external">ihewro / Duoshuo-Disqus-theme</a> : 让你的多说评论看起来像 Disqus。</li>
+<li><a href="https://github.com/Ben02/163music-APlayer-you-get-docker-mod" target="_blank" rel="external">Ben02 / 163music-APlayer-you-get-docker-mod</a> : 一个美丽的基于网易云音乐的 HTML5 播放器。</li>
+</ol>
+<h3 id="特别鸣谢"><a href="#特别鸣谢" class="headerlink" title="特别鸣谢"></a>特别鸣谢</h3><p><a href="https://github.com/pinggod/hexo-theme-apollo/" target="_blank" rel="external">pinggod/hexo-theme-apollo</a>: 参考了一些代码实现。 </p>
+<p>专注文章内容的创作胜过博客样式的美观，祝各位玩的开心:) ！ </p>
 ]]></content>
       
         
         <tags>
             
-            <tag> hexo,blog </tag>
+            <tag> （hexo） （blog） </tag>
             
         </tags>
         
