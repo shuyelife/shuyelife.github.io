@@ -16,6 +16,12 @@
 ]]></content>
       
         
+        <tags>
+            
+            <tag> hexo，next </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -76,7 +82,11 @@ canvas_nest: true
         
         <tags>
             
-            <tag> 转载,NEXT,hexo </tag>
+            <tag> hexo </tag>
+            
+            <tag> 转载 </tag>
+            
+            <tag> NEXT </tag>
             
         </tags>
         
@@ -148,8 +158,16 @@ canvas_nest: true
             
             <category> 技术探讨 </category>
             
+            <category> HEXO </category>
+            
         </categories>
         
+        
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
         
     </entry>
     
@@ -211,7 +229,7 @@ canvas_nest: true
         
         <tags>
             
-            <tag> （hexo） （blog） </tag>
+            <tag> hexo，blog </tag>
             
         </tags>
         
@@ -246,6 +264,12 @@ canvas_nest: true
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> 记录 </tag>
+            
+        </tags>
         
     </entry>
     
@@ -379,7 +403,9 @@ canvas_nest: true
         
         <tags>
             
-            <tag> hexo,blog </tag>
+            <tag> hexo </tag>
+            
+            <tag> blog </tag>
             
         </tags>
         
@@ -400,14 +426,6 @@ canvas_nest: true
 ]]></content>
       
         
-        <tags>
-            
-            <tag> Testing </tag>
-            
-            <tag> Another Tag </tag>
-            
-        </tags>
-        
     </entry>
     
     <entry>
@@ -426,6 +444,12 @@ canvas_nest: true
 
 ]]></content>
       
+        
+        <tags>
+            
+            <tag> 草稿 </tag>
+            
+        </tags>
         
     </entry>
     
