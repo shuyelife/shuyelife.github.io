@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shuyelife.github.io/about/index.html</loc>
+    
+    <lastmod>2017-02-24T13:40:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shuyelife.github.io/404.html</loc>
     
     <lastmod>2017-02-24T13:32:00.000Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>https://shuyelife.github.io/post/%E4%BB%A3%E7%A0%81%E5%AE%9E%E9%AA%8C/</loc>
     
     <lastmod>2017-02-24T03:52:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shuyelife.github.io/about/index.html</loc>
-    
-    <lastmod>2017-02-23T17:38:53.000Z</lastmod>
     
   </url>
   
