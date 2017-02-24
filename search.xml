@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[“为next主题的主页文章添加阴影效果”]]></title>
-      <url>http://yoursite.com/post/%E2%80%9C%E4%B8%BAnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%BB%E9%A1%B5%E6%96%87%E7%AB%A0%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1%E6%95%88%E6%9E%9C%E2%80%9D/</url>
+      <url>https://shuyelife.github.io/post/%E2%80%9C%E4%B8%BAnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%BB%E9%A1%B5%E6%96%87%E7%AB%A0%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1%E6%95%88%E6%9E%9C%E2%80%9D/</url>
       <content type="html"><![CDATA[<p>From: <a href="http://jinfang.life/posts/90b55d7a/" target="_blank" rel="external">http://jinfang.life/posts/90b55d7a/</a></p>
 <p>next主题的主页文章列表颜色个人感觉有点单调，层次不够突出，一直想加个阴影效果，所以来改写一下前端样式，怕以后忘记，写文记之。 </p>
 <p>next主题的css好像是采用的less来组织编写的，所以打开chrome,定位以后发现是在编译后的main.css 的类.posts-expand .post来控制的。  </p>
@@ -26,7 +26,7 @@
     
     <entry>
       <title><![CDATA[“为next主题添加nest背景特效”]]></title>
-      <url>http://yoursite.com/post/%E2%80%9C%E4%B8%BAnext%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0nest%E8%83%8C%E6%99%AF%E7%89%B9%E6%95%88%E2%80%9D/</url>
+      <url>https://shuyelife.github.io/post/%E2%80%9C%E4%B8%BAnext%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0nest%E8%83%8C%E6%99%AF%E7%89%B9%E6%95%88%E2%80%9D/</url>
       <content type="html"><![CDATA[<p>From: <a href="http://www.jianshu.com/p/447d9b40c623" target="_blank" rel="external">http://www.jianshu.com/p/447d9b40c623</a></p>
 <p>效果请看我的主页<a href="http://jinfang.life" target="_blank" rel="external">http://jinfang.life</a><br>看到评论留言有人问到我的背景是怎么做的，关于这个，我已经将代码提交到github了，还是写文解答一下吧。 </p>
 <p>背景的几何线条是采用的nest效果，一个基于html5 canvas绘制的网页背景效果，非常赞！来自github的开源项目<a href="https://github.com/hustcc/canvas-nest.js" target="_blank" rel="external">canvas-nest</a>, </p>
@@ -90,7 +90,7 @@ canvas_nest: true
     
     <entry>
       <title><![CDATA[HEXO配置]]></title>
-      <url>http://yoursite.com/post/HEXO%E9%85%8D%E7%BD%AE/</url>
+      <url>https://shuyelife.github.io/post/HEXO%E9%85%8D%E7%BD%AE/</url>
       <content type="html"><![CDATA[<p>title: Jacman基于Pacman修改的Hexo主题<br>date: 2015-03-22 17:11:20<br>categories: Hexo</p>
 <h2 id="description-Jacman-基于-Pacman-主题修改而来"><a href="#description-Jacman-基于-Pacman-主题修改而来" class="headerlink" title="description: Jacman 基于 Pacman 主题修改而来"></a>description: Jacman 基于 Pacman 主题修改而来</h2><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于Pacman已经暂停更新，加上Hexo已经升级为3.0，很多主题需要重新适配，而Jacman是基于Pacman修改而来，在前端设计样式和功能上做了很多合理的修改和完善，相信你也一定可以很快上手。</p>
 <blockquote>
@@ -161,7 +161,7 @@ canvas_nest: true
     
     <entry>
       <title><![CDATA[Hexo 双栏纯白轻博客主题 Anatole]]></title>
-      <url>http://yoursite.com/post/Hexo-%E5%8F%8C%E6%A0%8F%E7%BA%AF%E7%99%BD%E8%BD%BB%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98-Anatole/</url>
+      <url>https://shuyelife.github.io/post/Hexo-%E5%8F%8C%E6%A0%8F%E7%BA%AF%E7%99%BD%E8%BD%BB%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98-Anatole/</url>
       <content type="html"><![CDATA[<p>HEXO 双栏纯白轻博客主题 ANATOLE</p>
 <p>此主题系 Farbox 主题 Anatole 在 Hexo 平台上的移植版本。主题特色：双栏、响应式设计、纯净、轻巧、观感舒适。</p>
 <p>本文为 hexo-theme-Anatole 的中文文档。 Click here for the English wiki.</p>
@@ -212,7 +212,7 @@ canvas_nest: true
     
     <entry>
       <title><![CDATA[Mac 基础教程：如何让 Finder 显示隐藏文件和文件夹]]></title>
-      <url>http://yoursite.com/post/Mac-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AE%A9-Finder-%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</url>
+      <url>https://shuyelife.github.io/post/Mac-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AE%A9-Finder-%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</url>
       <content type="html"><![CDATA[<p>有一些人（比如笔者）总是喜欢捣鼓 Mac 上面的任何文件，尤其是那些被隐藏起来的。所以，我总是喜欢将系统默认的隐藏文件显示出来。熟悉 Windows 系统的用户可能只需要在文件选项菜单那里打上几个勾就可以做到了，那么对于 Mac 用户呢？</p>
 <p>如何让 Finder 显示隐藏文件和文件夹</p>
 <p>第一步：打开「终端」应用程序。</p>
@@ -244,7 +244,7 @@ canvas_nest: true
     
     <entry>
       <title><![CDATA[Hexo常见问题解决方案]]></title>
-      <url>http://yoursite.com/post/Hexo%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
+      <url>https://shuyelife.github.io/post/Hexo%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
       <content type="html"><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>Hexo是一个非常好用的静态博客生成器，但是由于很多方面的原因，导致在使用过程中经常出现错误。这些错误中，有些是因为自己的设置不当，导致程序报错；有些是因为版本更迭，导致原有的设置失效；而有些，则是Hexo程序本身的BUG。 本文旨在尽可能的解决前两类问题，缓解Hexo项目大量重复issues的现象。当然，我个人的力量是有限的，因此也希望使用Hexo的大家也能一起行动起来，通过提交PR，发布issues或者在下方评论等形式参与到本文档的编辑中来。 同时，也希望有能力的人可以将本文档翻译成英文，以帮助到更多的人。 浏览时，使用Ctrl+F搜索关键词或使用目录来定位问题。</p>
 <p>本文欢迎转载，但是恳请保留贡献者信息，谢谢。</p>
 <h1 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h1><hr>
@@ -380,7 +380,7 @@ canvas_nest: true
     
     <entry>
       <title><![CDATA[Hello World]]></title>
-      <url>http://yoursite.com/post/hello-world/</url>
+      <url>https://shuyelife.github.io/post/hello-world/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
@@ -397,7 +397,7 @@ canvas_nest: true
     
     <entry>
       <title><![CDATA[代码实验]]></title>
-      <url>http://yoursite.com/post/%E4%BB%A3%E7%A0%81%E5%AE%9E%E9%AA%8C/</url>
+      <url>https://shuyelife.github.io/post/%E4%BB%A3%E7%A0%81%E5%AE%9E%E9%AA%8C/</url>
       <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=28285910&auto=1&height=66"></iframe>
 
 
