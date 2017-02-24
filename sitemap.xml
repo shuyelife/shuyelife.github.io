@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shuyelife.github.io/404.html</loc>
+    
+    <lastmod>2017-02-24T13:32:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shuyelife.github.io/post/Hexo%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     
     <lastmod>2017-02-24T11:46:37.000Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>https://shuyelife.github.io/zhaji/index.html</loc>
     
     <lastmod>2017-02-23T16:50:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shuyelife.github.io/404.html</loc>
-    
-    <lastmod>2017-02-23T16:50:37.000Z</lastmod>
     
   </url>
   
