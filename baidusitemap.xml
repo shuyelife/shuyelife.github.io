@@ -4,14 +4,34 @@
 
     
   <url>
-    <loc>http://yoursite.com/post/%E2%80%9C%E4%B8%BAnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%BB%E9%A1%B5%E6%96%87%E7%AB%A0%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1%E6%95%88%E6%9E%9C%E2%80%9D/</loc>
-    <lastmod>2017-02-24T06:23:22.000Z</lastmod>
+    <loc>http://yoursite.com/post/Hexo%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
+    <lastmod>2017-02-24T11:46:37.000Z</lastmod>
     <data>
         <display>
-        <title>“为next主题的主页文章添加阴影效果”</title>
-        <pubTime>2017-02-24T06:19:29.000Z</pubTime>
+        <title>Hexo常见问题解决方案</title>
+        <pubTime>2017-02-22T17:27:56.000Z</pubTime>
         
-        <tag>hexo next</tag>
+        <tag>hexo,blog</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术探讨" url="http://yoursite.com/categories/tech/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/post/Hexo-%E5%8F%8C%E6%A0%8F%E7%BA%AF%E7%99%BD%E8%BD%BB%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98-Anatole/</loc>
+    <lastmod>2017-02-24T11:46:28.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo 双栏纯白轻博客主题 Anatole</title>
+        <pubTime>2017-02-22T17:42:04.000Z</pubTime>
+        
+        <tag>hexo,blog</tag>
          
          
            
@@ -22,13 +42,30 @@
     
   <url>
     <loc>http://yoursite.com/post/%E2%80%9C%E4%B8%BAnext%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0nest%E8%83%8C%E6%99%AF%E7%89%B9%E6%95%88%E2%80%9D/</loc>
-    <lastmod>2017-02-24T06:02:30.000Z</lastmod>
+    <lastmod>2017-02-24T11:46:12.000Z</lastmod>
     <data>
         <display>
         <title>“为next主题添加nest背景特效”</title>
         <pubTime>2017-02-24T06:01:10.000Z</pubTime>
         
-        <tag>转载 NEXT hexo</tag>
+        <tag>转载,NEXT,hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/post/%E2%80%9C%E4%B8%BAnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%BB%E9%A1%B5%E6%96%87%E7%AB%A0%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1%E6%95%88%E6%9E%9C%E2%80%9D/</loc>
+    <lastmod>2017-02-24T11:46:02.000Z</lastmod>
+    <data>
+        <display>
+        <title>“为next主题的主页文章添加阴影效果”</title>
+        <pubTime>2017-02-24T06:19:29.000Z</pubTime>
+        
+        <tag>hexo,next</tag>
          
          
            
@@ -103,43 +140,6 @@
              
               <breadCrumb title="技术探讨" url="http://yoursite.com/categories/tech/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/post/Hexo%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
-    <lastmod>2017-02-23T07:56:20.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo常见问题解决方案</title>
-        <pubTime>2017-02-22T17:27:56.000Z</pubTime>
-        
-        <tag>hexo blog</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术探讨" url="http://yoursite.com/categories/tech/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/post/Hexo-%E5%8F%8C%E6%A0%8F%E7%BA%AF%E7%99%BD%E8%BD%BB%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98-Anatole/</loc>
-    <lastmod>2017-02-23T06:30:59.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo 双栏纯白轻博客主题 Anatole</title>
-        <pubTime>2017-02-22T17:42:04.000Z</pubTime>
-        
-        <tag>hexo blog</tag>
-         
-         
-           
         </display>
     </data>
     </url>
