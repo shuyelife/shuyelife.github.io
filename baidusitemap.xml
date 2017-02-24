@@ -4,6 +4,25 @@
 
     
   <url>
+    <loc>https://shuyelife.github.io/post/hello-world/</loc>
+    <lastmod>2017-02-24T14:47:05.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-02-20T08:22:46.000Z</pubTime>
+        
+        <tag>Testing</tag>
+         
+        <tag>Another Tag</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://shuyelife.github.io/post/%E2%80%9C%E4%B8%BAnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%BB%E9%A1%B5%E6%96%87%E7%AB%A0%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1%E6%95%88%E6%9E%9C%E2%80%9D/</loc>
     <lastmod>2017-02-24T14:42:27.000Z</lastmod>
     <data>
@@ -91,21 +110,6 @@
     
     
     
-    
-  <url>
-    <loc>https://shuyelife.github.io/post/hello-world/</loc>
-    <lastmod>2017-02-23T09:26:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-02-20T08:22:46.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>https://shuyelife.github.io/post/Mac-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AE%A9-Finder-%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</loc>
