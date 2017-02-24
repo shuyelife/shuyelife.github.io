@@ -398,7 +398,11 @@ canvas_nest: true
     <entry>
       <title><![CDATA[代码实验]]></title>
       <url>https://shuyelife.github.io/post/%E4%BB%A3%E7%A0%81%E5%AE%9E%E9%AA%8C/</url>
-      <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=28285910&auto=1&height=66"></iframe>
+      <content type="html"><![CDATA[<p>Idina Menze和Caleb Hyles激情对唱Let It Go：</p>
+<iframe height="498" width="510" src="http://player.youku.com/embed/XNjcyMDU4Njg0" frameborder="0" allowfullscreen></iframe>
+
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=28285910&auto=1&height=66"></iframe>
 
 
 <font size="3" color="red">This is some text!</font><br><font size="2" color="blue">This is some text!</font><br><font face="verdana" color="green">This is some text!</font>
