@@ -484,9 +484,10 @@ canvas_nest: true
     <link href="https://shuyelife.github.io/post/%E4%BB%A3%E7%A0%81%E5%AE%9E%E9%AA%8C/"/>
     <id>https://shuyelife.github.io/post/代码实验/</id>
     <published>2013-02-23T16:34:08.000Z</published>
-    <updated>2017-02-24T19:26:49.000Z</updated>
+    <updated>2017-02-25T05:30:45.000Z</updated>
     
-    <content type="html"><![CDATA[<!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 -->
+    <content type="html"><![CDATA[<p>作者：Login<br>链接：<a href="https://www.zhihu.com/question/30911258/answer/111202256" target="_blank" rel="external">https://www.zhihu.com/question/30911258/answer/111202256</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+<!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 -->
 <!-- 其中 class="blockquote-center" 是必须的 -->
   <blockquote class="blockquote-center">blah blah blah</blockquote>
 
@@ -511,9 +512,7 @@ canvas_nest: true
     
     <summary type="html">
     
-      &lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;
-&lt;!-- 其中 class=&quot;blockquote-center&quot; 是必须的 --&gt;
-  &lt;blockquote class=&quot;blockquote-center&quot;&gt;blah blah bl
+      &lt;p&gt;作者：Login&lt;br&gt;链接：&lt;a href=&quot;https://www.zhihu.com/question/30911258/answer/111202256&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/qu
     
     </summary>
     
